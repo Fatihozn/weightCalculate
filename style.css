@@ -1,0 +1,43 @@
+body{
+    background-image: url(images/galaxy.gif);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+img{
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+    border-style: none;
+    border-width:0px ;
+}
+#foto{
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    border-style: none;
+}
+#inpt{
+    background-color: black;
+    margin: 20px;
+    padding: 20px;
+    width: 600px;
+    text-align: center;
+}
+select{
+    margin: 0px 15px;
+}
+#btn{
+    background-color: gray;
+    color: white;
+}
+#btn:hover{
+    background-color: red;
+}
+#btn:active{
+    background-color: black;
+}
